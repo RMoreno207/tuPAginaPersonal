@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aloha Diving</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="./assets/img/icons8-dolphin-96.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <img src="../assets/img/icons8-menú-50.png" alt="" class="hamburger">
+            </label>
+            <a href="#" class="enlace">
+                <img src="../assets/img/icons8-dolphin-96.png" alt="" class="logo">
+            </a>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./biografia.html">Biografía</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a class="active" href="#">Contacto</a></li>
+
+            </ul>
+        </nav>
+
+
+
+        <div id="hero">
+            <h1>Aloha Diving</h1>
+            <hr>
+            <p>Queremos aercar el medio marino a la población, enseñando a bucear y generando conciencia ambiental. </p>
+        </div>
+        <div id="medio">
+            <div id="content">
+                <h2>¡Contáctanos!</h2>
+                <hr>
+                <section id="contact">
+                    <h2>Contacto</h2>
+                    <form action="#contact">
+                        <label for="fname">Nombre:</label>
+                        <input type="text" id="fname" name="fname" placeholder="Introduce nombre..." minlength="3"
+                            maxlenght="30" required>
+
+                        <label for="lname">Apellidos:</label>
+                        <input type="text" id="lname" name="lname" placeholder="Introduce apellidos..." minlength="3"
+                            maxlenght="30" required>
+
+                        <label for="fname">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Introduce email..." required>
+
+
+                        <label for="comments">¿Observaciones?</label>
+                        <textarea rows="2" cols="30" name="comments" wrap="hard"
+                            placeholder="Tus observaciones..."></textarea>
+
+                        <label><input type="checkbox" id="accept" value="accept"> Acepto los términos legales</label>
+
+                        <label for="spam"><input type="checkbox" id="spam" value="spam"> Acepto recibir
+                            publicidad</label>
+
+                        <input type="submit" value="Enviar">
+
+                    </form>
+
+                </section>
+            </div>
+        </div>
+
+        <footer>
+            <h2>Enlaces</h2>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./biografia.html">Biografía</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a class="active" href="#">Contacto</a></li>
+            <br><br><br><br>
+
+            <p>Encuentranos también en nuestras redes sociales!</p>
+            <br>
+            <p>Aloha Diving 2022. All rights reserved. Privacy Policy</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>
